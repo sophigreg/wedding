@@ -41,15 +41,24 @@
       .me {
       max-width: 30%;
       width: 100%;
-      height: 700px;
+      height: 675px;
       object-fit: cover;
       display: block;
       margin-bottom: 10px;
-      margin-top: 10px;
+      margin-top: 50px;
 	  margin-left: 600px;
 	  object-position: center top;
     }
+	@font-face {
+  font-family: 'HarlowSolid';
+  src: url('/static/font/HARLOWSI_1.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+h3 {
+  font-family: 'HarlowSolid', sans-serif !important;
+}
 </style>
 
 <img src="static/imgs/us2.jpg" alt="me" class="me" >
@@ -60,20 +69,15 @@
 
   <!-- columns should be the immediate child of a .row -->
   <div class="row">
-      <div class="four columns">
-          <h3>Greg & Sophia </h3>
-      </div>
-      
-      <div class="eight columns">
-          <p></p>
-      </div>
-  </div>
+	<div class="col-12 text-center">
+	  <h3>Greg & Sophia </h3>
+	</div>
 
 
   
   <div class="row">
     <ul>
-      <div class="twelve columns">
+		<div class="col-12 text-center">
           <h5>Yes ladies and gents, we are tying them knots...and we can't wait to celebrate with you. </h5>
       </div>
 
